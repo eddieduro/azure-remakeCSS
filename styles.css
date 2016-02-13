@@ -29,6 +29,7 @@ h1 {
 .headerWrapper {
   margin-top: 70px;
 }
+
 /*==========
 navbar
 ===========*/
@@ -48,4 +49,39 @@ nav {
 .nav-pills > li > a:hover{
   background-color: inherit;
   color: black;
+}
+
+/*=========
+nav head
+==========*/
+.nav-right {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.nav-right > li > a{
+  color: grey;
+  font-size: 1.2em;
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 0;
+}
+
+.borderNav{
+  color: grey;
+  font-size: 1.2em;
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 0;
+}
+
+.borderNav:after{
+  content:"";
+  background-color: grey;
+  position: absolute;
+
+  left: 0;
+  height: 50%;
+  width: 1px;
 }
