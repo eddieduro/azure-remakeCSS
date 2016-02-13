@@ -78,10 +78,11 @@ nav head
 
 .borderNav:after{
   content:"";
-  background-color: grey;
+  background-color: rgba(0, 0, 0, 0.3);;
   position: absolute;
-
+  top: 10px;
+  margin-right: 10px;
   left: 0;
-  height: 50%;
+  height: 30%;
   width: 1px;
 }
